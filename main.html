@@ -1,0 +1,287 @@
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My test page</title>
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-content">
+        <div class="left-column">
+
+            <div class="picture-section">
+                <img src="images/mainpic.png" alt="My test image" class="main-picture">
+                <div class="picture-text-wrap">
+                    <span id="typedText"></span><span id="typeCursor" class="type-cursor">|</span>
+                </div>
+            </div>
+
+            <div class="carousel-section" style="display: none;">
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="slide active">
+                          <img src="images/b767fa4dde8192727c2b6b5787743502.jpg" alt="Image 1">
+                          <p>Text for Image 1</p>
+                        </div>
+                        <div class="slide">
+                          <img src="images/62d0960e18f0f857977f2d3766900635.jpg" alt="Image 2">
+                          <p>Text for Image 2</p>
+                        </div>
+                        <div class="slide">
+                          <img src="" alt="Image 3">
+                          <p>Text for Image 3</p>
+                        </div>
+                    </div>
+                    <button class="carousel-btn left" id="prevBtn">&#10094;</button>
+                    <button class="carousel-btn right" id="nextBtn">&#10095;</button>
+                </div>
+            </div>
+
+            <div class="buttons-section" style="margin-top: 30px;">
+                <button id="openListBtn" style="margin-right: 120px;">Open when</button>
+                <button id="openModalBtn">The reasons why I love you<br>(so you don't forget)</button>
+                <button id="heartsBtn" style="margin-left: 120px;">❤️ Click</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="playlist-sidebar">
+      <h2>Playlist</h2>
+      <div class="playlist-container">
+        <div class="playlist">
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Summertime Sadness</span>
+            <span class="song-artist">Lana Del Rey</span>
+            <span class="song-duration">3:45</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            It sounds a bit sad, but makes me feel like I can breathe. That feeling of freedom and acceptance I relate to you.
+          </div>
+        </div>
+
+        <div class="song">
+            <div class="song-info">
+                <span class="song-title">Wrap me in plastic</span>
+                <span class="song-artist">Chromance</span>
+                <span class="song-duration">3:30</span>
+                <button class="expand-btn">▼</button>
+            </div>
+            <div class="song-comment">
+                Maybe silly a bit. I never allowed myself to feel I'm just a pretty little thing that you can take care of. But I started. Not too often, dw)
+            </div>
+        </div>
+
+        <div class="song">
+            <div class="song-info">
+                <span class="song-title">Dusk till Dawn</span>
+                <span class="song-artist">Zayn Malik feat Sia</span>
+                <span class="song-duration">4:20</span>
+                <button class="expand-btn">▼</button>
+            </div>
+            <div class="song-comment">
+                This one is just romantic. I think it fits.
+            </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Towards the Sun</span>
+            <span class="song-artist">Rihanna</span>
+            <span class="song-duration">3:45</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            I feel hugged andprotected when I listen to that one, so I thought you may too.
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Art Deco</span>
+            <span class="song-artist">Lana Del Rey</span>
+            <span class="song-duration">4:10</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            I feel like I'm floating when I listen to that one. You make me feel like that too. I want to give you the world.
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">It's a trip!</span>
+            <span class="song-artist">Joywave</span>
+            <span class="song-duration">3:40</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            Lively and energetic. Like you. Used to be my favorite song.
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">My Moon My Man</span>
+            <span class="song-artist">Feist</span>
+            <span class="song-duration">3:50</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            Calming and soothing. Very vulnerable. I recall how dear you are tome and how I want to protect you and your feelings.
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Into you</span>
+            <span class="song-artist">Ariana Grande</span>
+            <span class="song-duration">3:27</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            This just sounds good. vibing
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Enjambre</span>
+            <span class="song-artist">Impacto</span>
+            <span class="song-duration">4:00</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            This one reminds me of a morning sum. So soft and gentle. I feel that too when I think about you...
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Birds</span>
+            <span class="song-artist">Imagine Dragons</span>
+            <span class="song-duration">3:21</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            Strong and dramatic. Thought you'd like. 
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Love again</span>
+            <span class="song-artist">Dua lipa</span>
+            <span class="song-duration">3:03</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            I Like that song. Feels powerful but soft. Like I'm playing with you and loosing (no bad way playing). 
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Heavy Metal Lover</span>
+            <span class="song-artist">Lady Gaga</span>
+            <span class="song-duration">4:54</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            Haha.. u know.. im on my knees whenever u want, but u gott be ready too))
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Take Me Out</span>
+            <span class="song-artist">Franz Ferdinand</span>
+            <span class="song-duration">3:57</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            Demanding. Or begging. Like you. Gives me that feeling. 
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Angel</span>
+            <span class="song-artist">Massive Attack</span>
+            <span class="song-duration">4:00</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            A bit of stroger feelings for you... If you don't mind...
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Führe Mich</span>
+            <span class="song-artist">Rammstein</span>
+            <span class="song-duration">3:54</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            Lead me.
+          </div>
+        </div>
+
+        <div class="song">
+          <div class="song-info">
+            <span class="song-title">Heavy love</span>
+            <span class="song-artist">Odetari</span>
+            <span class="song-duration">4:15</span>
+            <button class="expand-btn">▼</button>
+          </div>
+          <div class="song-comment">
+            I'm that for you too...  if you don't mind honey
+          </div>
+        </div>
+
+      </div>
+      </div>
+      <div class="global-player">
+        <div class="player-controls">
+          <button id="prevSong">⏮</button>
+          <button id="playPause">▶</button>
+          <button id="nextSong">⏭</button>
+        </div>
+        <div class="now-playing">
+          <span id="currentSongTitle">No song Selected</span>
+        </div>
+        <audio id="audioPlayer"></audio>
+      </div>
+    </div>
+    
+    <div id="listModal" class="modal">
+      <div class="modal-content">
+        <span id="listClose" class="list-close close">&times;</span>
+        <h2>Open when</h2>
+        <ul id="itemList"></ul>
+      </div>
+    </div>
+    <div id="detailModal" class="modal">
+      <div class="modal-content">
+        <span id="detailClose" class="close">&times;</span>
+        <h2 id="detailTitle"></h2>
+        <div id="detailContent"></div>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span id= "msgClose" class="close">&times;</span>
+        <h2>check all :)</h2>
+        <p id="randomMessage">Click "New Message" to see a random message.</p>
+        <button id="newMessageBtn">another one</button>
+      </div>
+    </div>
+    <audio id="popSound" src="sounds/pop.mp3" preload="auto"></audio>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
